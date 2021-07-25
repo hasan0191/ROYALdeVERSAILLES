@@ -1,0 +1,441 @@
+@media (min-width: 1199px){
+    .bg-white {
+        background-color: #fff0!important;
+    }
+}
+@media (max-width: 1199px){
+    /* slider conten area  */
+    .wrapper .slider-content {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+    }
+    .wrapper .slider-content h4 {
+        font-size: 30px;
+    }
+    .wrapper .slider-content .learn-more a {
+        padding: 12px 25px;
+        margin-top: 10px;
+    }
+    /* top header area  */
+    .header .top-content .top_middle {
+        width: 50%;
+    }
+    /* slider area  */
+    .slider-area .carousel-indicators li {
+        bottom: 50px;
+    }
+    /* menu area  */
+    .menu-area .navbar-expand-lg .navbar-nav {
+        margin-top: 70px;
+    }
+    .bg-white {
+        background-color: #fff0!important;
+    }
+    /* jewellery area  */
+    .wrapper.jewellery-area ul.jewellery li .jewellery-content{
+        width: 240px;
+        height: 330px;
+    }
+    /* footer area  */
+    .wrapper .footer-area .allItem {
+        grid-template-columns: 170px 170px 170px 170px 170px;
+        column-gap: 30px;
+    }
+
+}/*media query max-width 1199px close*/
+
+@media (max-width: 991px){
+ /* top header area  */
+    .wrapper .header .top-content .top_left {
+        width: 170px;
+    }
+    .wrapper .header .top-content .top_right {
+        padding-left: 0px;
+    }
+    .wrapper .header .top-content {
+        font-size: 12px;
+    }
+    .wrapper .header .top-content .top_right a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    /* slider content area  */
+    .wrapper .slider-content {
+        top: 35%;
+        left: 50%;
+        text-align: center;
+    }
+    .wrapper .slider-content h4 {
+        font-size: 20px;
+    }
+    /* menu area  */
+    .bg-white {
+        background-color: #fff0!important;
+    }
+    .menu-area .navbar-expand-lg .navbar-nav {
+        margin-top: 10px;
+    }
+    .menu-area .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0px;
+    }
+    .wrapper .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 7px;
+        font-size: 14px;
+    }
+    /* service area  */
+    .wrapper .service-area .service-content p {
+        font-size: 12px;
+        margin-top: 55px;
+    }
+    .wrapper .service-area .service-content .service-title h3 {
+        font-size: 40px;
+    }
+    .wrapper .service-area .service-hand img {
+        height: 653px;
+        width: 482px;
+    }
+    .wrapper .service-area .service-post h5 {
+        font-size: 14px;
+        color: #010000;
+        font-family: 'proximaNovaRegular';
+        text-transform: uppercase;
+        padding: 7px 0px;
+    }
+    .wrapper .service-area .onBag {
+        width: 230px;
+    }
+    .wrapper .stories-area .stories-post .stories-content p {
+        font-size: 12px;
+        font-family: 'baskerville';
+        color: #fff;
+        text-align: center;
+    }
+    /* contact area  */
+    .wrapper .footer-area .allItem {
+        grid-template-columns: 130px 130px 130px 130px 130px;
+        column-gap: 20px;
+    }
+    .wrapper .footer-area .allItem .itemTitle {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .wrapper .footer-area .allItem ul .lastContactList{
+        overflow: scroll;
+        height: 30px;
+    }
+    
+
+}/*media query max-width 991px close*/
+
+@media (max-width: 767px){
+    /* top header area  */
+    .wrapper .header .top-content {
+        font-size: 12px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .wrapper .header .top-content .top_middle img {
+        margin-top: 10px;
+        width: 190px;
+        height: 40px;
+        margin-left: -32px;
+    }
+    .wrapper .header .top-content .top_middle p {
+        margin: 0px;
+        font-size: 10px;
+        line-height: 12px;
+        width: 300px;
+        margin-left: -90px;
+    }
+    .wrapper .header .top-content .top_right {
+        margin-left: 85px;
+        text-align: right;
+    }
+    .wrapper .header .top-content .top_left {
+        margin-left: -135px;
+        text-align: left;
+    }
+    .wrapper .header .top-content .top_middle {
+        margin-left: 135px;
+    }
+    .wrapper .header .top-content .top_right img {
+        margin-top: 10px;
+    }
+    /* slider content area  */
+    .wrapper .slider-content .learn-more a {
+        padding: 5px 15px;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .wrapper .slider-content h4 {
+        font-size: 16px;
+    }
+    .wrapper .slider-content {
+        top: 28%;
+        width: 100%;
+    }
+    /* slider area  */
+    .slider-area .carousel-indicators li {
+        bottom: 5px;
+    }
+    /* menu area  */
+    .menu-area {
+        left: 0;
+    }
+    .wrapper .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0px;
+        font-size: 11px;
+    }
+    .menu-area .navbar-expand-lg .navbar-nav {
+        margin-top: 10px;
+    }
+    .menu-area .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0px;
+    }
+    .wrapper .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px;
+    }
+    /* carousel area  */
+    .wrapper .jewellery-area ul.jewellery li .jewellery-content {
+        width: 170px;
+        height: 255px;
+    }
+    .wrapper .jewellery-area .content-footer-hover h4 {
+        font-size: 14px;
+    }
+    .wrapper .jewellery-area .content-footer-hover .learn-more a {
+        padding: 5px 8px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .wrapper .jewellery-area .jewellery-title h4 {
+        font-size: 36px;
+        color: #000;
+        font-family: "baskerville";
+        position: relative;
+    }
+    .wrapper .jewellery-area .jewellery-title {
+        margin-bottom: 20px;
+    }
+
+    /* service area  */
+    .wrapper .service-area {
+        text-align: center;
+        margin-top: -130px;
+    }
+    .wrapper .service-area .service-content p {
+        font-size: 16px;
+        margin-top: 60px;
+    }
+    .wrapper .service-area .service-post h5 {
+        font-size: 24px;
+        font-family: 'proximaNovaBold';
+    }
+    /* stories area  */
+    .wrapper .stories-area {
+        padding-top: 500px;
+        padding-bottom: 500px;
+    }
+    .wrapper .stories-area .stories-title h4 {
+        font-size: 42px;
+        margin-top: 50px;
+    }
+    .wrapper .stories-area .stories-post .stories-content {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .wrapper .stories-area .stories-post .stories-content p {
+        font-size: 20px;
+    }
+    .wrapper .stories-area .row .col-md-4 {
+        border-right: 0px;
+    }
+    /* shadow area  */
+    .wrapper .shadow-area {
+        margin-top: -465px;
+    }
+
+    /* contact area  */
+    .wrapper .footer-area .allItem {
+        grid-template-columns: 185px 160px 160px;
+        column-gap: 20px;
+    }
+    /* second footer area  */
+    .wrapper .secFooter-area .copyRight {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+    .wrapper .secFooter-area .footerLogo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .wrapper .secFooter-area .footerSocial {
+        text-align: center;
+    }
+
+
+} /*media query max-width 767px close*/
+
+@media (max-width: 575px){
+ /* top header area  */
+ .wrapper .header .top-content .top_right {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+ .wrapper .header .top-content .top_left,
+ .wrapper .header .top-content .top_middle p,
+ .wrapper .header .top-content .top_right img,
+ .wrapper .header .top-content .top_middle {
+    display: none;
+}
+ .wrapper .header .top-content .top_right {
+    text-align: center;
+    margin-top: 22px;
+}
+/* menu area  */
+.wrapper .menu-area {
+    top: 0px;
+} 
+.wrapper .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 3px;
+}
+   
+    /* slider content  */
+    .wrapper .slider-content {
+        top: 20%;
+    }
+    /* owl carousel  */
+    .wrapper .jewellery-area ul.jewellery li .jewellery-content {
+        width: 240px;
+        height: 300px;
+    }
+    .wrapper .stories-area .stories-post .stories-content p {
+        font-size: 14px;
+    }
+    /* sign up  */
+    .wrapper .signUp-area .signUp .form-control {
+        width: 235px;
+    }
+    .wrapper .signUp-area .signUp form a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .wrapper .signUp-area .signUp .form-control::placeholder {
+        font-size: 12px;
+     }
+     .wrapper .footer-area .allItem {
+        grid-template-columns: 185px 180px;
+    }
+
+}/*media query max-width 575px close*/
+
+@media (max-width: 420px){
+    /* menu area  */
+    .bg-white {
+        background-color: #fff!important;
+        
+    }
+    .menu-area .navbar-nav .nav-link {
+        color:black !important;
+    }
+    .wrapper .menu-area {
+        top: 0px;
+    }
+    .navbar-toggler {
+        padding: 0 !important;
+        font-size: 14px !important;
+    }
+
+    /* slider content  */
+    .wrapper .slider-content {
+        display: none;
+    }
+
+
+
+}/*media query max-width 420px close*/
+
+@media (max-width: 320px){
+ 
+    /* top header  */
+    .wrapper .slider-content {
+        display: none;
+    }
+    .wrapper .header .top-content .top_right {
+        font-size: 14px;
+    }
+    .wrapper .header .top-content .top_right {
+        margin-top: 28px;
+    }
+    .wrapper .header .top-content .top_right a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wrapper .slider-area .carousel-indicators li {
+        bottom: -5px;
+    }
+      /* slider area */
+      
+     /* jewellery area  */
+     .wrapper .jewellery-area {
+        margin-top: 80px;
+    }
+    /* owl carousel  */
+    .wrapper .jewellery-area .jewellery-title h4 {
+        font-size: 22px;
+    }
+    .wrapper .jewellery-area .jewellery-title h4::after {
+        height: 2px;
+        bottom: -20px;
+    }
+    .wrapper .jewellery-area ul.jewellery li .jewellery-content {
+        width: 100px;
+        height: 160px;
+    }
+   
+    /* stories area  */
+    .wrapper .stories-area .stories-title h4 {
+        font-size: 26px;
+        margin-top: -60px;
+    }
+    .wrapper .stories-area .stories-post .stories-content p {
+        font-size: 12px;
+    }
+    .wrapper .stories-area {
+        padding-top: 500px;
+        padding-bottom: 320px;
+    }
+    /* sign up area  */
+    .wrapper .signUp-area {
+        margin-top: 180px;
+    }
+    .wrapper .signUp-area .signUp .form-control {
+        width: 220px;
+    }
+    .wrapper .signUp-area .signUp form a {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+    .wrapper .signUp-area .signUp .form-control::placeholder {
+        font-size: 11px;
+     }
+     /* contact area  */
+     .wrapper .footer-area .allItem {
+        grid-template-columns: 145px 115px;
+    }
+    /* second footer area  */
+    .wrapper .secFooter-area .footerLogo {
+        margin-left: -25px;
+    }
+
+    /* top jquery  */
+    .wrapper .top {
+        position: fixed;
+        right: 24px;
+        bottom: 75px;
+    }
+
+}/*media query max-width 320px close*/
